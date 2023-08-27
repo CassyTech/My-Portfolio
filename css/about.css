@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 30px;  
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.site ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 0.5em;
+    transition: 1s ease-in;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: #faf4f4;
+    text-transform: uppercase;
+    
+}
+
+.site ul li a:hover {
+    border-bottom: 3px solid red;
+    
+}
+
+/* -------------second-nav------- */
+
+.nav-3 {
+    width: 80%;
+    padding-top: 8em;
+    display: flex;
+}
+
+.nav-4 ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1.2em;
+    padding-top: 1em;
+}
+
+.nav-4 h3 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.nav-4 ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 1em;
+    width: 0%;
+    transition: 1s;
+}
+
+.nav-4 ul li a:hover {
+    border-bottom: 3px solid  #f51717;
+    cursor: pointer; 
+}
+
+/* -----------nav-btn-------- */
+
+.btn-top {
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid #fff;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 30px;
+    margin: 30px;
+}
+
+.btn-top:hover {
+    width: 100%;
+    cursor: pointer;
+    color: #080808;;
+    background-color: #fff;  
+}
+
+
+
+/* ------------------middile--------- */
+
+.middle {
+    background: #f3cece;
+    height: 100vh; 
+    margin-top: 6em;
+}
+
+.middle-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+form {
+    margin-top: 6%;
+}
+
+form input,textarea, button{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+form button {
+    background: #f18989;
+    color: #fff;
+    font-weight: normal;
+}
+form button:hover {
+    cursor: pointer;
+    background-color: #f51717;
+}
+.middle-2 h1 {
+    margin-top: 12%;
+    font-size: 3.5em;
+    line-height: 80px;
+}
+
+.middle-2 h1, p {
+    align-items: center;
+}
+
+.middle-2 p {
+    font-size: 1.5em;
+    text-align: left;
+    width: 75%;
+    margin-top: 1.5em;
+}
+
+/* -------------footer---------- */
+footer {
+    background: #1B1E3C;
+    width: 100%;
+    padding: 10px;
+}
+
+.down {
+    margin: auto;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.down h1{
+    color: #fff;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    font-weight: 200;
+}
+
+.down p {
+    color: #fff;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.icon h3 {
+    color: #fff;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.icon-2 ul li {
+    display: inline-block;
+    list-style: none;
+    background: #928b8b;
+    padding: 0.4em;
+    border-radius: 2em;
+   
+}
+
+.icon-2 ul li img {
+    width: 1.5em;
+}
+
+.middle-3 {
+    background-color:#fff;
+    width: 100%;
+    height: 110vh;
+    margin-top: 4em;
+    padding-left: 4em;
+}
+
+.about {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about div {
+    margin: 0;
+    overflow: hidden;
+}
+
+.about img {
+    width: 90%;
+    height: 80%;
+    background-size: cover;
+    background-position: left;
+    padding-right: 4em;
+    overflow: hidden;
+    transition: 1s;
+} 
+
+.about h2 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    padding-bottom: 1em;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
+.Awards h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.Awards img {
+    overflow: hidden;
+    width: 20%;
+    padding-bottom: 4em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px 16px;
+}
+
